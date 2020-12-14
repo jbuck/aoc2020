@@ -1,4 +1,3 @@
-const { SIGHUP } = require('constants')
 const utils = require('../utils')
 
 const input = utils.readInputAsArray(process.argv[2]).filter(i => !!i)
